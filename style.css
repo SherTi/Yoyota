@@ -1,0 +1,638 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0px;
+    padding: 0 58px 0;
+    background-color:#fff;
+    border-bottom: 1px solid #e8e8e8;
+}
+.logo{
+    display: inline;
+    margin:0px;
+    padding: 0px;
+    size: 136px 24px;
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.bgImg{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav{
+    margin: 0px;
+    padding-left: 0px;
+    background-color:white ;
+    border: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 750 ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.iconDiv{
+    display: flex;
+    align-items: center;
+}
+.topnav a{
+    margin:0px 18px;
+    color: #000;
+    text-align: center;
+    text-decoration:none ;
+}
+.icon{
+    width: 28px;
+    height: 28px;
+}
+.bordered{
+    border: 2px solid #000;
+    padding: 2px 4px;
+}
+.iconlimit {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    text-indent: 100%;
+    white-space:nowrap;
+    position: relative;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.text{
+    display :flex ;
+    color: whitesmoke;
+    flex-direction: column;
+    align-self: start;
+    padding: 32px 32px 8px 32px;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.set{
+    position: absolute;
+    margin-bottom: 8px;
+    color: white;
+    padding: 1px 5px 0 ;
+    background-color:red;
+    font-size: 11px;
+    font-weight: bold;
+}
+.tutu{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 14px;
+    
+}
+.yoyo{
+    font-weight: bold;
+    margin-bottom: 8px;
+    
+}
+.time{
+    color: white;
+    font-size: 11px;
+    margin-top: 22px;
+}
+.corona19{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px 30px 100px;
+    font-size: 20px;
+    text-decoration:none;
+}
+.corona {
+    text-align: center;
+    text-decoration: none;
+    color: #034f6d;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: all .3s;
+}
+.corona:hover{
+    text-decoration: underline;
+    color: #eb0a1e;
+}
+.amaki{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 0px;
+    cursor: pointer;
+}
+.amaki:hover .say, .amaki:hover .shark, .amaki:hover .more ,.amaki:hover .rektext {
+    color: #eb0a1e;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+    object-fit: contain;
+}
+.oldbox{
+    width: 50%;
+    padding: 32px 48px 0;
+}
+.date{
+    color: #4f4f4f;
+    margin: 0 0 19px 0;
+    font-size: 11px;
+}
+.say{
+    color: #000;
+    margin: 8px 0 16px 0;
+    font-size: 28px;
+    font-family:  sans-serif;
+    font-weight: bold;
+    transition: all .3s;
+}
+.shark{
+    color: rgb(22, 22, 22);
+    margin: 0 0 32px 0;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all .3s;
+}
+.more{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #000;
+    font-family:sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 55px 15px 0 0;
+    transition: all .3s;
+}
+.man{
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 0 0;
+    padding: 0px;
+    position: relative;
+}
+.car{
+    width: 100%;
+    height: 100%;
+}
+.carimg{
+    width:100%;
+    height: 100%;
+}
+.oldbox2{
+    display :flex ;
+    color: whitesmoke;
+    flex-direction: column;
+    align-self: start;
+    position: absolute;
+    bottom: 15px;
+    left: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 32px 32px 8px 32px;
+}
+.ti{
+    position: absolute;
+    margin-bottom: 8px;
+    color: white;
+    padding: 1px 5px 0 ;
+    background-color:red;
+    font-size: 11px;
+    font-weight: bold;
+}
+.pm{
+    color: white;
+    font-size: 11px;
+    margin-top: 22px;
+}
+.bold{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 14px;
+}
+.jos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.a{
+    width: 50%;
+}
+.zero{
+    display: flex;
+    font-family: sans-serif;
+    height: 134px;
+    font-size: 25px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 65.351px 0 65.351px;
+}
+.fit{
+    display:flex;
+    width: 100%;
+    height:134px;
+    margin: 0 0 2px 0;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+.fit_w{
+    display:flex;
+    width: 100%;
+    height:134px;
+    margin: 0 0 2px 0;
+    background-color: white;
+    justify-content: space-between;
+}
+.one{
+    display:flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+}
+.onepng{
+    display: flex;
+    background:url("stetic/20220201_01_t_w610_2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.b{
+    width: 50%;
+}
+.six{
+    height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0 65.351px 0 65.351px;
+    font-family: sans-serif;
+}
+.siz{
+
+    font-size: 25px;
+}
+.two{
+    display:flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.twopng {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/Toyota.png");
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.three{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.threepng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background: url("stetic/Toyota.png");
+    background-size: 100%;
+    object-fit: cover;
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.four{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.fourpng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/5000.jpg");
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+
+.five{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.fivepng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/ralliy.jpg");
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.seven{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.sevenpng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/Motor.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.eight{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.eightpng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/Img Toyota time Toyota Motor Corporation.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.nine{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.ninepng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/imgchildrenoroad.jpg");
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.rekadd{
+    margin: 0px;
+    padding: 0 16px 0 16px;
+    width: 100%;
+    font-family:sans-serif;
+    background-size: 100%;
+}
+.rektext{
+    height: 100%;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    transition: all .3s;
+}
+.rekdate{
+    color: #4f4f4f;
+    font-size: 11px;
+    margin-bottom: 7px;
+    padding: 0px;
+    display: flex;
+}
+.ten{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+.tenpng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/Tehnology.jpg");
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.eleven{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    align-items: center;
+}
+.elevenpng{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background:url("stetic/Toyota.png");
+    background-color: white;
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.rektext:hover{
+    color: #eb0a1e;
+}
+
+.tripleblock{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 80px 0 80px ;
+    margin: 80px 0 40px 0;
+}
+.triple_text a{
+    text-decoration: none;
+    color: black;
+}
+.fixsed{
+    display: flex;
+    width: 346px;
+    height: 284px;
+    object-fit: cover;
+    
+}
+.technology{
+    width:33% ;
+    margin: 32px 0 0 0 ;
+    padding: 0 0 0 32px;
+}
+.cleverchildren{
+    width: 33%;
+    margin: 32px 0 0 0 ;
+    padding: 0 0 0 32px;
+}
+.sunbattery{
+    float: right;
+    width: 33%;
+    margin: 32px 0 0 0 ;
+    padding: 0 0 0 32px;
+}
+.triple_text{
+    display: flex;
+    justify-content: center;
+    font-family:sans-serif ;
+    font-weight: bold;
+    margin: 16px 0 0 0 ;
+    padding: 0 0 16px 0;
+    
+}
+._link{
+    
+    padding: 50px 100px 80px 100px;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.rek_add_text{
+    font-size: 11px;
+    width: 100%;
+    margin: 0 15px 0 0;
+    color:#4f4f4f;
+}
+.text_link{
+    display: inline-block;
+    width: 100%;
+    justify-content: start;
+    line-height: 29px;
+    padding-left: 60px;
+    font-family: sans-serif;
+}
+.rek_text_link{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #034f6d;
+    transition: all .3s;
+}
+.title_link{
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+    justify-content: center;
+    margin: 0 0 25px 0;
+}
+.end_block{
+    padding: 48px 80px;
+    background-color:  #424242;
+}
+.text_link_menu{
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.link_text_nav{
+    padding: 0 114px 0 0;
+    margin: 0 0 15px 0;
+    text-decoration: none;
+    color: #fff;
+}
+.link_text_nav_p{
+    display: inline-block;
+    padding: 0 65px 0 0;
+    text-decoration: none;
+    color: #fff;
+}
+.link_text_nav_p_faq{
+    display: inline-block;
+    padding: 0 0 0 61px;
+    margin-top:40px;
+    text-decoration: none;
+    color: #fff;
+}
+.imgnavlink{
+    display: inline-flex;
+    width: 50%;
+    margin: 40px 0 0 0;
+}
+.icon_img_all{
+    margin: 0px;
+    width: 36px;
+    height: 36px;
+    margin: 0 16px 0 0;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    left: 185px;
+    align-items: center;
+}
+.email_img{
+    display: flex;
+    align-items: center;
+    width: 48px;
+    height: 28px;
+
+}
+.email_text{
+    display: flex;
+    margin: 0 0 0 16px;
+    align-items: center;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 10px;
+}
+.end_header{
+    display: flex;
+    height: 20px;
+    background-color: #212121;
+    padding: 26px 80px 26px 80px;
+    align-items: center;
+}
+.end_header_text{
+    color: #fff;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text_link:hover .rek_text_link{
+    text-decoration: underline;
+    color: #eb0a1e;
+} 
